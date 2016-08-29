@@ -1,0 +1,88 @@
+﻿Build started 10/1/2015 5:53:51 PM.
+     1>Project "C:\Users\Shreyansh\Downloads\Assignments\CSCI 580\HW3\KOTHARI_SHREYANSH_HW3\CS580HW3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\CS580HW3.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(33) : see declaration of 'MBCS_Support_Deprecated_In_MFC'
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\CS580HW3.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp Application3.cpp CS580HW.cpp CS580HWDoc.cpp CS580HWView.cpp disp.cpp MainFrm.cpp rend.cpp RotateDlg.cpp ScaleDlg.cpp TranslateDlg.cpp
+         TranslateDlg.cpp
+         ScaleDlg.cpp
+         RotateDlg.cpp
+         rend.cpp
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\rend.cpp(18): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\rend.cpp(35): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\rend.cpp(53): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\rend.cpp(113): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\rend.cpp(114): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\rend.cpp(115): warning C4305: '=' : truncation from 'INT' to 'float'
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\rend.cpp(118): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\rend.cpp(119): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\rend.cpp(198): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\rend.cpp(498): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\rend.cpp(500): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\rend.cpp(586): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\rend.cpp(588): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\rend.cpp(599): warning C4244: 'initializing' : conversion from 'float' to 'GzDepth', possible loss of data
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\rend.cpp(613): warning C4244: 'initializing' : conversion from 'float' to 'GzDepth', possible loss of data
+         MainFrm.cpp
+         disp.cpp
+         CS580HWView.cpp
+         CS580HWDoc.cpp
+         CS580HW.cpp
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\cs580hw.cpp(58): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(5178) : see declaration of 'CWinApp::Enable3dControls'
+         Application3.cpp
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(77): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(85): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(97): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(98): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(99): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(101): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(102): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(105): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(109): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(44): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(44): warning C4101: 'j' : unreferenced local variable
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(155): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(162): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(173): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(179): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(185): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(191): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(141): warning C4101: 'yRes' : unreferenced local variable
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(130): warning C4101: 'camera' : unreferenced local variable
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(141): warning C4101: 'xRes' : unreferenced local variable
+     1>c:\users\shreyansh\downloads\assignments\csci 580\hw3\kothari_shreyansh_hw3\application3.cpp(140): warning C4101: 'j' : unreferenced local variable
+         Application.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0409" /nologo /fo".\Debug\CS580HW.res" CS580HW.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\CS580HW3.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug\CS580HW3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\CS580HW3.lib" /MACHINE:X86 /SAFESEH .\Debug\CS580HW.res
+         .\Debug\Application.obj
+         .\Debug\Application3.obj
+         .\Debug\CS580HW.obj
+         .\Debug\CS580HWDoc.obj
+         .\Debug\CS580HWView.obj
+         .\Debug\disp.obj
+         .\Debug\MainFrm.obj
+         .\Debug\rend.obj
+         .\Debug\RotateDlg.obj
+         .\Debug\ScaleDlg.obj
+         .\Debug\StdAfx.obj
+         .\Debug\TranslateDlg.obj
+     1>Application.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         CS580HW3.vcxproj -> C:\Users\Shreyansh\Downloads\Assignments\CSCI 580\HW3\KOTHARI_SHREYANSH_HW3\.\Debug\CS580HW3.exe
+     1>Done Building Project "C:\Users\Shreyansh\Downloads\Assignments\CSCI 580\HW3\KOTHARI_SHREYANSH_HW3\CS580HW3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.59
